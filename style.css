@@ -1,0 +1,79 @@
+/* General */
+* {
+    margin: 0%;
+}
+
+h2 {
+    color: white;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Home */
+/* Header */
+header{
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img {
+    width: 100px;
+    height: 65px;
+    padding: 10%;
+}
+
+header nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Home Intro */
+.home_intro{
+    background-color: #444141;
+    /* background-image: url("./Images/escape-room-experience.avif");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.home_intro button{
+    background-color: #b69341;
+}
+
+.home_intro h1{
+    color: #b69341;
+}
+
+
+
+
+
+
+/* Home About */
+.home_about {
+    background-color: #b69341;
+}
+
+.home_about h2 {
+    padding-bottom: 10px;
+}
+
+.home_about p {
+    padding-bottom: 16px;
+    
+}
