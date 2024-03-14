@@ -136,6 +136,59 @@ header nav a{
 }
 
 
+
+/* Contact Page  */
+
+.contact{
+    background-color: #444141;
+}
+
+.contact-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-info{
+    background-color: antiquewhite;
+    color: #444141;
+}
+
+.contact-info h2{
+    color: #444141;
+}
+.contact-info p{
+    color: #444141;
+}
+.contact-info h4{
+    color: #b69341
+}
+
+
+.location-info{
+    background-color: #80549c;
+    color: white;
+    padding: 5%;
+}
+
+.location-info h2, p{
+    color: white;
+}
+
+.location-info address p{
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
+.location-info address {
+    padding-bottom: 5%;
+}
+
+.location-info img {
+    width: 90%;
+    padding-top: 5%;
+}
+
+
 /* Footer */
 footer {
     display: flex;
@@ -149,3 +202,4 @@ footer {
 footer a {
     margin: 10px;
 }
+
