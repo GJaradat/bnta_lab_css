@@ -113,3 +113,22 @@ header nav a{
     margin-top: 25px;
     margin-bottom: 50px;
 }
+
+/* Home Rooms  */
+.home_rooms{
+    background-color: #80549c;
+}
+
+.home_rooms button{
+    background-color: #b69341;
+}
+
+.rooms_collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 10px;
+}
+
+.rooms_collection .room {
+    justify-content: center;
+}
