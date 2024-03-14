@@ -226,3 +226,15 @@ footer a {
     margin: 10px;
 }
 
+/* Media  */
+@media screen and (max-width: 600px){
+    .contact-body{
+        grid-template-columns: 1fr;
+    }
+    footer p{
+        font-size: 1rem;
+    }
+    .social-links img{
+        width: 20%;
+    }
+}
