@@ -5,8 +5,8 @@
 
 h2 {
     color: white;
-    font-size: 55px;
-    font-family: sans-serif;
+    font-size: 40px;
+    font-family: cursive
 }
 
 p{
@@ -17,6 +17,15 @@ p{
 button {
     text-align: center;
     font-size: 18px;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    text-transform: uppercase;
+    color: white;
 }
 
 /* Home */
@@ -75,5 +84,8 @@ header nav a{
 
 .home_about p {
     padding-bottom: 16px;
-    
+}
+
+.home_about button {
+    background-color: #80549c;
 }
