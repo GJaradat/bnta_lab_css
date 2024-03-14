@@ -6,7 +6,7 @@
 h2 {
     color: white;
     font-size: 40px;
-    font-family: cursive
+    font-family: cursive;
 }
 
 p{
@@ -17,15 +17,23 @@ p{
 button {
     text-align: center;
     font-size: 18px;
-    padding-top: 5.5px;
-    padding-bottom: 5.5px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 18px;
     padding-right: 18px;
     letter-spacing: 2px;
     font-family:Arial, Helvetica, sans-serif;
     
+    border: none;
+    
     text-transform: uppercase;
     color: white;
+}
+
+/* Hover effect on buttons */
+button:hover{
+    text-decoration: underline;
 }
 
 /* Home */
@@ -53,6 +61,7 @@ header nav a{
 /* Home Intro */
 .home_intro{
     background-color: #444141;
+    /* TODO: Add image */
     /* background-image: url("./Images/escape-room-experience.avif");
     height: 100%; 
     background-position: center;
@@ -62,6 +71,7 @@ header nav a{
 
 .home_intro button{
     background-color: #b69341;
+    
 }
 
 .home_intro h1{
@@ -74,20 +84,34 @@ header nav a{
 
 
 /* Home About */
+/* Background */
 .home_about {
     background-color: #b69341;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
+/* Text */
 .home_about h2 {
+    margin-top: 15px;
     padding-bottom: 10px;
 }
 
 .home_about p {
+    text-align: center;
+
+    max-width: 600px;
     padding-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+/* Buttons */
 .home_about button {
     background-color: #80549c;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 /* Home Rooms  */
