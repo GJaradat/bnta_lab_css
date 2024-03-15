@@ -17,15 +17,15 @@ h2 {
 
 p{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 button {
     text-align: center;
     font-size: 18px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 18px;
     padding-right: 18px;
     letter-spacing: 2px;
@@ -119,8 +119,8 @@ header nav a{
 
 /* Text */
 .home_about h2 {
-    margin-top: 15px;
-    padding-bottom: 10px;
+    margin-top: 75px;
+    padding-bottom: 20px;
 }
 
 .home_about p {
@@ -147,17 +147,35 @@ header nav a{
     justify-content: center;
 }
 
+.home_rooms h2 {
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+.home_rooms desription{ 
+    padding-bottom: 16px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
 .rooms_collection{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px 10px;
-    
+    padding: 40px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .home_rooms button{
-    background-color: #b69341;
+    background-color: #d6b259;
     margin-top: 25px;
     margin-bottom: 50px;
+}
+
+.home_rooms h3 {
+    color: white;
+    font-size: 40px;
+    
+    margin-top: 15px;
+    padding-bottom: 10px;
 }
 
 /* reduce columns depending on screen width */
